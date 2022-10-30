@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  #nav-bar {
+    height: auto;
+    display: block;
+  }
+  .avatar {
+    display: none;
+  }
+  #nav-bar .container {
+    padding-left: 50px;
+  }
+  /* #about .container {
+    display: inline-block;
+  } */
+  #personal-info {
+    font-size: 16px;
+    padding-right: 40px;
+  }
+  #target {
+    font-size: 16px;
+  }
+  .project-title {
+    font-size: 14px;
+  }
+
+  #project-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
